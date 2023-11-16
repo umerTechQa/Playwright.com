@@ -30,6 +30,7 @@ public class captureSS_Snapshot_Etc {
 	   // Stop tracing and export it into a zip archive.
 	      context.tracing().stop(new Tracing.StopOptions()
 	        .setPath(Paths.get("trace.zip")));
+	      System.out.println("Done");
 
 	      
 	}

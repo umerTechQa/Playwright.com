@@ -17,7 +17,9 @@ public class Capture_links {
 		List<String> LinkText=page.locator("a:visible").allInnerTexts();
 		for(int i=0; i<=LinkText.size(); i++) {
 			System.out.println(LinkText.get(i));
-		}
+			System.out.println("New entry hogi!");
+			
+			}
 				}
 
 	
