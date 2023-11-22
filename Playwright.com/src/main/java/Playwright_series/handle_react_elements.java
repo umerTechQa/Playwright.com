@@ -8,9 +8,19 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 public class handle_react_elements {
 
 	@Test
+	@Owner("Umer Ejaz")
+	@Story("How to get react based locators")
+	 @Description("This is for get react based locator.")
+	 @Severity(SeverityLevel.CRITICAL)
 	public void handle_react_locator() {
 		
 		Playwright playwright=Playwright.create();
