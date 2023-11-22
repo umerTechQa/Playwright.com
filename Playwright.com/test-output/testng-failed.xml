@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Playwright_series.Newtestcase">
+      <class name="Playwright_series.handle_react_elements">
         <methods>
-          <include name="new001"/>
+          <include name="handle_react_locator"/>
         </methods>
-      </class> <!-- Playwright_series.Newtestcase -->
+      </class> <!-- Playwright_series.handle_react_elements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
