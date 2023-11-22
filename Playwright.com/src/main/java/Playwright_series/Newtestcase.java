@@ -14,7 +14,7 @@ public class Newtestcase {
     	Browser browser=playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		Page page=browser.newPage();
 		page.navigate("https://www.ebay.com/");		
-		System.out.println(" This is new test cases added !");
+		System.out.println(" This is new test cases added!!");
 		
 	}
 }
